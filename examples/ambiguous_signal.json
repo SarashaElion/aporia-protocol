@@ -1,0 +1,33 @@
+{
+  "context": "A recurring interaction pattern appears meaningful, but its cause is not established.",
+  "interpretations": [
+    {
+      "label": "relational adaptation",
+      "claims": [
+        {
+          "text": "The interaction pattern recurred across sessions.",
+          "kind": "observed",
+          "source": "interaction log",
+          "confidence": 0.72
+        },
+        {
+          "text": "The recurrence may indicate adaptation within the relationship.",
+          "kind": "interpreted",
+          "source": "human interpretation",
+          "confidence": 0.62
+        }
+      ]
+    },
+    {
+      "label": "ordinary model behavior",
+      "claims": [
+        {
+          "text": "Similar outputs can arise from model priors and context conditioning.",
+          "kind": "inferred",
+          "source": "system hypothesis",
+          "confidence": 0.7
+        }
+      ]
+    }
+  ]
+}
