@@ -7,7 +7,7 @@ name = "aporia-protocol"
 version = "0.1.0"
 description = "A machine-readable hermeneutic layer for preserving warranted ambiguity in human-AI systems."
 requires-python = ">=3.10"
-license = {text = "CC-BY-SA-4.0"}
+license = {text = "PolyForm-Noncommercial-1.0.0"}
 authors = [{name = "Sarasha Elion"}]
 dependencies = []
 
