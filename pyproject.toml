@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "aporia-protocol"
+version = "0.1.0"
+description = "A machine-readable hermeneutic layer for preserving warranted ambiguity in human-AI systems."
+requires-python = ">=3.10"
+license = {text = "CC-BY-SA-4.0"}
+authors = [{name = "Sarasha Elion"}]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+aporia = "aporia.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/aporia"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
