@@ -14,7 +14,7 @@ def evaluate(payload: dict) -> dict:
                 text=c["text"],
                 kind=EpistemicKind(c["kind"]),
                 source=c["source"],
-                confidence=float(c.get("confidence", 0.5)),
+                confidence=float(c["confidence"]),
                 supports=tuple(c.get("supports", [])),
             )
             for c in item.get("claims", [])
@@ -31,6 +31,10 @@ def evaluate(payload: dict) -> dict:
         "resolution": decision.resolution.value,
         "reason": decision.reason,
         "candidates": list(decision.candidates),
+        "leading_interpretation": decision.leading_interpretation,
+        "evidential_weights": dict(decision.evidential_weights),
+        "unresolved_contradictions": list(decision.unresolved_contradictions),
+        "what_would_resolve": list(decision.what_would_resolve),
     }
 
 
