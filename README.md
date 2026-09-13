@@ -118,6 +118,8 @@ Where TRIA establishes architectures for relational governance, sovereignty, coh
 
 It can operate independently or later serve as an interpretive layer within relational intelligence systems.
 
+TRIA's public Truth-Integrity Protocol addresses a related but separate problem: evidence-backed assessment of whether a claim reflects uncertainty, error, contradiction, probable deception, or adversarial manipulation. Aporia can preserve unresolved interpretations and prevent contradiction from being prematurely collapsed into a deception finding. It does not infer intent, label bad actors, authorize restrictions, or serve as a required dependency of that protocol.
+
 ## Status
 
 **Experimental / v0.1.0.**
